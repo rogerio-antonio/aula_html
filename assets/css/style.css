@@ -1,0 +1,19 @@
+h1 {
+    color: blue;
+}
+
+a {
+    color: rgb(105, 61, 19);
+    display: block;
+    /*4 tipos: block(não pode ter nada na frente*/
+}
+
+.sem-sublinhado {
+    text-decoration: none;
+}
+
+#minha-div {
+   background-color: green;
+   width: 50%;
+   height: 100vh;
+}
