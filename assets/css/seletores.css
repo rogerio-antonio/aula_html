@@ -1,0 +1,61 @@
+/*
+    * Seletor por tag (usammos o próprio nome da tag)
+    * Exemplo: selecionei todos os p
+*/
+p {
+    color: blue;
+}
+
+
+/* 
+    * Seletor por classe (usamos um ponto antes do nome da classe)
+    * Exemplo: selecionei todos os elementos com a classe cor-vermelha
+    * Podemos usar quantas classes quisermos em um elemento
+    * Podemos usar classes em quantos elementos quisermos
+    * Podemos usar classes em qualquer tag
+    * Podemos usar classes em qualquer lugar do HTML
+    * Podemos usar classes em qualquer arquivo CSS
+    
+*/
+
+
+.cor-vermelha {
+    color: red
+}
+
+
+.fw {
+    font-weight: 900;
+}
+
+
+#minha-div {
+    width: 50%;/*50% da largura da tela*/
+    height: 40px;/*40px de altura*/
+    background-color: green;/*cor de fundo*/
+}
+
+
+div p {
+    color: orange;
+}
+
+
+.link {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+}
+
+
+.link:hover {
+    background-color: white;
+    color: black;
+}
+
+
+#minha-lista li:nth-child(2) { /*Precisa do li porque a ul poderia ter mais filhos (ex. p)*/
+    color:rgb(24, 116, 196);
+}
+
+
