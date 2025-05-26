@@ -1,0 +1,18 @@
+div {
+    width: 50%;
+    height: 40px;
+    background-color: rgba(208, 255, 0, 0.3);
+    border-radius: 3px;
+}
+
+
+.image {
+    width: 40%;
+    height: 180px;
+    background-image: url("../images/globo.jpg");
+    background-repeat: no-repeat;
+    background-size: auto;
+    border-radius: 2px;
+    opacity: 0.1;
+}
+

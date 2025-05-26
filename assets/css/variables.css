@@ -1,0 +1,13 @@
+/* Tema padrão: Verde */
+:root {
+    --main-color: #54db95; /* Ponto e vírgula adicionado aqui */
+}
+
+.theme-green {
+    --main-color: #00a650;
+}
+
+.theme-orange {
+    --main-color: #ff6600;
+}
+

@@ -1,0 +1,9 @@
+@import url("variables.css");
+
+body {
+    background-color: var(--main-color);
+}
+
+div {
+    color: var (--main-color);
+}
